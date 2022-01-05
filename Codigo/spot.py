@@ -8,7 +8,6 @@ import yfinance as yf
 
 def yahoo(instrumento):
     elemento = yf.Ticker(instrumento)
-    #info_elemento = elemento.info
     for key, value in elemento.info.items():
         if (key == 'regularMarketPrice'):
             priceElem = value
