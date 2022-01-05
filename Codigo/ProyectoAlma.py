@@ -14,7 +14,7 @@ print(" "*65 + "Alma fintech ")
 print("Inicializando Bot...\n")
 
 # Inicializo el ambiente
-pyRofex.initialize(user="matihorst996607", password="mjejzF3!", account="REM6607", environment=pyRofex.Environment.REMARKET)
+pyRofex.initialize(user="xxxxxx", password="xxxxxx", account="xxxxx", environment=pyRofex.Environment.REMARKET)
 
 
 # Defino como voy a manejar del mensaje recibido
